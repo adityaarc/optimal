@@ -1,5 +1,5 @@
-# optimal
-Food Points in the BIT Campus
+# BIT-O-PATH
+Food Points in the BIT Campus AND There prediced crowd and Menu Details
 
 Link : https://adityaarc.github.io/optimal/
 
