@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+/*
+    background : url(biit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+
+    background-color: rgb(235, 211, 255);
+
+}
+
+#contain {
+    display: flex;
+    justify-content:space-between;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    background-image: url(load.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index:99999;
+}
+
+#block1 {
+
+    margin-top: 5%;;
+    margin-bottom: auto;
+    width: 40%;
+    margin-left: 5%; ;
+   /* display:flex; */
+   border-radius: 20px;
+   float: right;
+
+}
+
+#block2 {
+
+    float: left;
+    margin-top: auto;
+    
+    margin-bottom: auto;
+
+    height: 500px;
+    width:30%;
+   background-image: url(dfd.png);
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+  animation: fly 5s Linear infinite;   
+
+}
+
+@keyframes fly{
+
+    100%{transform:translateY(10%)}
+    75%{transform:translateY(-10%)}
+    50%{transform:translateY(10%)}
+    25%{transform:translateY(-10%)}
+    0%{transform:translateY(10%)}
+    
+  /*  45%{transform:translateY(-5pxpx)};
+
+    
+    60%%{transform:translateY(-10px)};
+
+    
+    75%{transform:translateY(-5px)};
+
+    
+    100%{transform:translateY(5px)};
+
+*/
+}
+
+#delv {
+
+    animation: runn 18s Linear infinite;   
+
+}
+
+    @keyframes runn{
+
+        100%{transform:translateX(70em)}
+        
+
+        75%{transform:translateX(25em)}
+
+        /*
+        
+        95%{transform:translateX(60em)}
+        52%{transform:translateX(52em)}
+        
+        50%{transform:translateX(50em)}
+
+        48%{transform:translateX(48em)}
+        */
+
+
+        25%{transform:translateX(-30em)}
+
+        0%{transform:translateX(-60em)}
+      
+}
+
+
+
+.location{
+
+    color: #f19d01;
+    font-size: 500%;
+    font-variant-caps: all-petite-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.weather-icon{
+
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.temperature-description{
+
+    color: rgb(102, 1, 94);
+    font-size: 300%;
+    font-variant-caps: all-petite-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5%;
+    
+    margin-right: 5%;
+
+}
+
+.temperature-value{
+
+    color: rgba(248, 3, 3, 0.774);
+    font-size: 400%;
+    font-variant-caps: all-petite-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.latitude{
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.longetude{
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+.latitude p{
+
+    color: rgb(12, 95, 9);
+    font-size: 300%;
+    font-style: bold;
+    font-variant-caps: all-petite-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.longetude p{
+
+    color: rgb(27, 6, 148);
+    font-size: 300%;
+    margin-left: 10px;
+    font-style: italic;
+    font-variant-caps: all-petite-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+@media (max-width: 1000px)
+   {
+
+    #block2{
+        width: auto;
+    }
+
+    #block1 {
+        width: auto;
+    }
+
+    
+
+    #contain {
+        display: flex;
+        flex-direction: column;
+    }
+
+   }
