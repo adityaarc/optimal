@@ -5,4 +5,4 @@ Link : https://adityaarc.github.io/optimal/
 
 Update:
 Website is not complte and under  Construction
-Last Update Time : 5:30 PM August 18th 21
+Last Update Time : 5:30 PM August 20th 21
