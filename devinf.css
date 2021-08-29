@@ -229,7 +229,8 @@ body {
 
     #anuj:hover{
         width:82%;
-        background-color: rgb(104, 0, 189);
+          background-color: rgba(86, 61, 155, 0.76);
+
               height: fit-content;
 
     
@@ -237,8 +238,9 @@ body {
 
     
     #abhi:hover{
-        width:82%;
-        background-color: rgb(68, 3, 99);
+        width:82%;    
+      background-color: rgba(86, 61, 155, 0.76);
+
               height: fit-content;
 
     
@@ -247,7 +249,8 @@ body {
     
     #arc:hover{
         width:82%;
-        background-color: rgb(68, 3, 99);
+          background-color: rgba(86, 61, 155, 0.76);
+
         height: fit-content;
 
     
@@ -256,7 +259,8 @@ body {
     
     #krish:hover{
         width:82%;
-        background-color: rgb(68, 3, 99);
+          background-color: rgba(86, 61, 155, 0.76);
+
         height: fit-content;
 
     
